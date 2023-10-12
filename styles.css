@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  display: grid;
+  place-content: center;
+  background-color: #0e1629;
+}
+#poster {
+  inline-size: 300px;
+  block-size: 200px;
+  background-color: purple;
+  transition: box-shadown .1s, transform .1s;
+  background: url(./assets/img/sesshomaru.webp) no-repeat center;
+  background-size: cover;
+}
+
+#poster:hover {
+  box-shadow: 0 0 50px rgba(0 0 0);
+}
